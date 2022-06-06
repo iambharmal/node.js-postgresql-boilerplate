@@ -1,0 +1,34 @@
+{
+  "local": {
+    "username": "postgres",
+    "password": "root",
+    "database": "metacloud",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "metacloud",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root",
+    "database": "metacloud",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "MetAcloud2k22",
+    "database": "postgres",
+    "host": "metacloud.cyzilutwauag.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "connectTimeout": 60000,
+        "requestTimeout": 3000
+    }
+  }
+}

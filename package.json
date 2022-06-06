@@ -1,0 +1,23 @@
+{
+  "name": "metacloud",
+  "version": "1.0.0",
+  "description": "Metaverse Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.ts",
+    "prod": "export NODE_ENV=production && node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
